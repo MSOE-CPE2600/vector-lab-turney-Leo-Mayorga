@@ -1,0 +1,6 @@
+# depencency files 
+*.d
+# object files
+*.o
+# the exe files
+minimat

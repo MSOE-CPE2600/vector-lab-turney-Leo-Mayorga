@@ -208,7 +208,7 @@ int main(int argc, char **argv)
 
                 if (!store_set(LEFT, v))                 // save vector
                 {
-                    printf("Memory full. Use 'clear' to reset.\n");
+                    printf("Memory full. You can use the 'clear' command to reset.\n");
                 }
                 else
                 {
