@@ -6,6 +6,7 @@
 
 #include "vect.h"
 
+// performs the addition of two vectors
 vect v_add(vect a, vect b)
 {
     vect r = a;
@@ -16,6 +17,7 @@ vect v_add(vect a, vect b)
     return r;
 }
 
+// performs the subtraction of two vectors
 vect v_sub(vect a, vect b)
 {
     vect r = a;
@@ -26,6 +28,7 @@ vect v_sub(vect a, vect b)
     return r;
 }
 
+// performs the multiplication of a vector and a number
 vect v_scale(vect a, double s)
 {
     vect r = a;

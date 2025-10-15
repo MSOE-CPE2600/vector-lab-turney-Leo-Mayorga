@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// MAX_VECTS is 10
 static vect g_store[MAX_VECTS];
 
 // initiate
